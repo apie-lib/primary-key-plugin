@@ -1,0 +1,34 @@
+{
+  "name": "apie/primary-key-plugin",
+  "description": "Composer package of the apie library: primary key plugin",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pieter Jordaan",
+      "email": "pieter_jordaan@hotmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Apie\\PrimaryKeyPlugin\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Apie\\Tests\\PrimaryKeyPlugin\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=7.3",
+    "apie/core": "dev-main"
+  },
+  "require-dev": {
+    "apie/common-apie": "dev-main",
+    "apie/static-config-plugin": "dev-main",
+    "apie/static-resources-plugin":  "dev-main",
+    "phpunit/phpunit": "^9.5"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
